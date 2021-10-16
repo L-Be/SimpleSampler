@@ -2,7 +2,9 @@
 
 <JUCERPROJECT id="VMacx8" name="SimpleSampler" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="Elbo"
-              pluginFormats="buildVST3" pluginVST3Category="Sampler" cppLanguageStandard="latest">
+              pluginFormats="buildVST3" pluginVST3Category="Sampler" cppLanguageStandard="latest"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              defines="JUCE_MODAL_LOOPS_PERMITTED=1">
   <MAINGROUP id="r7z870" name="SimpleSampler">
     <GROUP id="{FFF26CE4-00D8-D342-E0E9-CFEF4D25C358}" name="Source">
       <FILE id="jprJEg" name="PluginProcessor.cpp" compile="1" resource="0"
